@@ -4808,7 +4808,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Throw
 - Rock Tomb
 
-Geodude
+Larvitar
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
@@ -4824,6 +4824,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Tackle
 - Rock Tomb
 
+Aerodactyl-Mega @ Oran Berry
+Level: 17
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Wing Attack
+- Toxic
+- Aerial Ace
+- Dragon Claw
+
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
 Class: Leader
@@ -4834,7 +4842,7 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Machop
+Machoke
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Karate Chop
@@ -4858,6 +4866,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Reversal
 - Bulk Up
 
+Scrafty-Mega @ Sitrus Berry
+Level: 21
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Arm Thrust
+- Vital Throw
+- Reversal
+- Bulk Up
+
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -4868,12 +4884,12 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Voltorb
+Jolteon
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rollout
 - Spark
-- Self Destruct
+- Thunderbolt
 - Shock Wave
 
 Electrike
@@ -4892,7 +4908,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Thunder Wave
 - Sonic Boom
 
-Manectric @ Sitrus Berry
+Manectric-Mega @ Sitrus Berry
 Level: 24
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Quick Attack
@@ -4911,23 +4927,23 @@ Double Battle: No
 AI: Basic Trainer
 
 Numel
-Level: 24
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Take Down
 - Magnitude
 - Sunny Day
 
-Slugma
-Level: 24
+Talonflame
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Smog
 - Light Screen
 - Sunny Day
 
-Camerupt
-Level: 26
+Camerupt-Mega
+Level: 36
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
 - Tackle
@@ -4935,7 +4951,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Attract
 
 Torkoal @ White Herb
-Level: 29
+Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
 - Sunny Day
@@ -4953,15 +4969,15 @@ Double Battle: No
 AI: Basic Trainer
 
 Spinda
-Level: 27
+Level: 47
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Teeter Dance
 - Psybeam
 - Facade
 - Encore
 
-Vigoroth
-Level: 27
+Bibarel
+Level: 47
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
 - Facade
@@ -4969,7 +4985,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Feint Attack
 
 Linoone
-Level: 29
+Level: 49
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
 - Belly Drum
@@ -4977,7 +4993,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Headbutt
 
 Slaking @ Sitrus Berry
-Level: 31
+Level: 51
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Counter
 - Yawn
@@ -4995,7 +5011,7 @@ Double Battle: No
 AI: Basic Trainer / Risky
 
 Swablu
-Level: 29
+Level: 49
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Perish Song
 - Mirror Move
@@ -5003,7 +5019,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aerial Ace
 
 Tropius
-Level: 29
+Level: 49
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sunny Day
 - Aerial Ace
@@ -5011,23 +5027,23 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Synthesis
 
 Pelipper
-Level: 30
+Level: 50
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Water Gun
 - Supersonic
 - Protect
 - Aerial Ace
 
-Skarmory
-Level: 31
+Skarmory-Gmax
+Level: 51
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
+- G-max Strafing Run
 - Fury Attack
 - Steel Wing
 - Aerial Ace
 
-Altaria @ Oran Berry
-Level: 33
+Altaria-Mega @ Oran Berry
+Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dragon Breath
@@ -5045,31 +5061,31 @@ Double Battle: Yes
 AI: Basic Trainer
 
 Claydol
-Level: 41
+Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
 - Ancient Power
 - Psychic
 - Light Screen
 
-Xatu
-Level: 41
+Reuniclus
+Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Sunny Day
 - Confuse Ray
 - Calm Mind
 
-Lunatone @ Sitrus Berry
-Level: 42
+Gallade-Mega @ Sitrus Berry
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 - Psychic
 - Hypnosis
 - Calm Mind
 
-Solrock @ Sitrus Berry
-Level: 42
+Gardevoir-Mega @ Sitrus Berry
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Sunny Day
 - Solar Beam
@@ -5086,16 +5102,16 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Luvdisc
-Level: 41
+Lapras
+Level: 71
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
-- Attract
-- Sweet Kiss
+- Ice Beam
+- Confuse Ray
 - Flail
 
 Whiscash
-Level: 41
+Level: 71
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rain Dance
 - Water Pulse
@@ -5103,7 +5119,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Earthquake
 
 Sealeo
-Level: 43
+Level: 73
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Encore
 - Body Slam
@@ -5111,7 +5127,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
 
 Crawdaunt
-Level: 43
+Level: 73
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
 - Crabhammer
@@ -5119,7 +5135,15 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leer
 
 Kingdra @ Chesto Berry
-Level: 46
+Level: 76
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Water Pulse
+- Double Team
+- Ice Beam
+- Rest
+
+Gyarados-Mega @ Chesto Berry
+Level: 76
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Water Pulse
 - Double Team
@@ -16877,3 +16901,122 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_KJH ===
+Name: KJH
+Class: Hexadec Maniac
+Pic: Hexadec Maniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Basic Trainer
+
+Rayquaza-Mega @ Assault Vest  
+Ability: Delta Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+- Draco Meteor  
+- Air Slash  
+- Blizzard  
+- Avalanche  
+
+Umbreon-Mega @ Assault Vest  
+Ability: Dark Aura  
+EVs: 252 HP / 4 Atk / 252 SpA  
+- Iron Tail  
+- Psychic  
+- Foul Play  
+- Synchronoise  
+
+Latios-Mega @ Soul Dew  
+Ability: Levitate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+- Psywave  
+- Psychic  
+- Draco Meteor  
+- Shadow Claw  
+
+Espeon-Mega @ Assault Vest  
+Ability: Dark Aura  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+- Psyshock  
+- Bite
+- Ruination 
+- Synchronoise  
+
+Leafeon-Mega @ Aguav Berry  
+Ability: Leaf Guard  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+- Sunny Day  
+- Giga Drain  
+- Razor Leaf  
+- Knock Off  
+
+Swampert-Mega @ Focus Sash  
+Ability: Swift Swim  
+EVs: 4 HP / 252 SpA / 252 Spe    
+IVs: 0 Atk  
+- Endeavor  
+- Hydro Cannon  
+- Hydro Pump  
+- Muddy Water  
+
+Decamark @ Assault Vest  
+Ability: Dark Aura  
+EVs: 252 HP / 4 Atk / 252 SpA  
+- Iron Tail  
+- Psychic  
+- Foul Play  
+- Synchronoise
+
+=== TRAINER_CYBOS ===
+Name: Cybos
+Class: Doctor
+Pic: Doctor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Raycario  
+Ability: Justified  
+- Close Combat  
+- Body Slam  
+- Aura Sphere  
+- Extreme Speed  
+
+Skarmory-Gmax  
+Ability: Keen Eye  
+Serious Nature  
+- Brave Bird  
+- Sky Attack  
+- G-max Strafing Run 
+- Fly  
+
+Dialga-Mega  
+Ability: Pressure  
+IVs: 0 Atk  
+- Roar of Time  
+- Draco Meteor  
+- Focus Blast  
+- Blizzard  
+
+Metagross  
+Ability: Clear Body  
+- Future Sight  
+- Earthquake  
+- Meteor Beam  
+- Giga Impact  
+
+Magnezone  
+Ability: Magnet Pull  
+- Zap Cannon  
+- Body Slam  
+- Thunderbolt  
+- Hyper Beam  
+
+Excabore  
+Ability: Moxie 
+- Drill Run  
+- Earthquake  
+- Hone Claws  
+- Earth Power  

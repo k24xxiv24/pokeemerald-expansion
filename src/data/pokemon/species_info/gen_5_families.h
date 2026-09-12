@@ -2834,6 +2834,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sExcadrillTeachableLearnset,
         .formSpeciesIdTable = sExcadrillFormSpeciesIdTable,
         .formChangeTable = sExcadrillFormChangeTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_DIAMOND_BIT, SPECIES_EXCABORE}),
     },
 
 #if P_GEN_9_MEGA_EVOLUTIONS

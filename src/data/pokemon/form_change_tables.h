@@ -298,7 +298,7 @@ static const struct FormChange sEeveeFormChangeTable[] =
     {FORM_CHANGE_FAINT,             SPECIES_EEVEE},
     {FORM_CHANGE_END_BATTLE,        SPECIES_EEVEE},
     {FORM_CHANGE_TERMINATOR},
-};
+    };
 #endif //P_FAMILY_EEVEE
 
 #if P_FAMILY_AERODACTYL
@@ -403,6 +403,7 @@ static const struct FormChange sSkarmoryFormChangeTable[] =
 {
 #if P_GEN_9_MEGA_EVOLUTIONS
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SKARMORY_MEGA, ITEM_SKARMORITE},
+    {FORM_CHANGE_BATTLE_GIGANTAMAX,             SPECIES_SKARMORY_GMAX},
 #endif
     {FORM_CHANGE_FAINT,                         SPECIES_SKARMORY},
     {FORM_CHANGE_END_BATTLE,                    SPECIES_SKARMORY},
@@ -915,6 +916,7 @@ static const struct FormChange sDialgaFormChangeTable[] =
 {
     {FORM_CHANGE_ITEM_HOLD, SPECIES_DIALGA, ITEM_NONE},
     {FORM_CHANGE_ITEM_HOLD, SPECIES_DIALGA_ORIGIN, ITEM_ADAMANT_CRYSTAL},
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_DIALGA_MEGA, ITEM_HARD_STONE},
     {FORM_CHANGE_TERMINATOR},
 };
 #endif //P_FAMILY_DIALGA
@@ -2178,5 +2180,95 @@ static const struct FormChange sTerapagosFormChangeTable[] =
 };
 #endif //P_FAMILY_TERAPAGOS
 
+static const struct FormChange sEspeonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ESPEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_ESPEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_ESPEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sUmbreonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_UMBREON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_UMBREON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_UMBREON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sLeafeonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_LEAFEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_LEAFEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_LEAFEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sGlaceonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GLACEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_GLACEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_GLACEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sSylveonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SYLVEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_SYLVEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_SYLVEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sFlareonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_FLAREON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_FLAREON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_FLAREON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sJolteonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_JOLTEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_JOLTEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_JOLTEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sVaporeonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_VAPOREON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_VAPOREON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_VAPOREON},
+    {FORM_CHANGE_TERMINATOR},
+};
+static const struct FormChange sPolteonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_POLTEON_MEGA, ITEM_ESPOLITE},
+
+#endif
+    {FORM_CHANGE_FAINT,             SPECIES_POLTEON},
+    {FORM_CHANGE_END_BATTLE,        SPECIES_POLTEON},
+    {FORM_CHANGE_TERMINATOR},
+};
 #undef WHEN_LEARNED
 #undef WHEN_FORGOTTEN

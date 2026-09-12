@@ -67,6 +67,7 @@ static const struct GMaxMove sGMaxMoveTable[] =
     {SPECIES_DURALUDON_GMAX,                  TYPE_DRAGON,     MOVE_G_MAX_DEPLETION},
     {SPECIES_URSHIFU_SINGLE_STRIKE_GMAX,      TYPE_DARK,       MOVE_G_MAX_ONE_BLOW},
     {SPECIES_URSHIFU_RAPID_STRIKE_GMAX,       TYPE_WATER,      MOVE_G_MAX_RAPID_FLOW},
+    {SPECIES_SKARMORY_GMAX,                   TYPE_FLYING,     MOVE_G_MAX_STRAFING_RUN},
 };
 
 // Returns whether a battler can Dynamax.

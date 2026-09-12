@@ -1696,6 +1696,7 @@ extern const u32 gItemIcon_TeraOrb[];
 extern const u16 gItemIconPalette_TeraOrb[];
 extern const u32 gItemIcon_TinyBambooShoot[];
 extern const u16 gItemIconPalette_TinyBambooShoot[];
+extern const u32 gItemIcon_DiamondBit[];
 
 // Tera Shards
 extern const u32 gItemIcon_TeraShard[];

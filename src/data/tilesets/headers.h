@@ -28,7 +28,6 @@ const struct Tileset gTileset_SecretBaseRedCave =
 const struct Tileset *const gTilesetPointer_SecretBase = &gTileset_SecretBase;
 const struct Tileset *const gTilesetPointer_SecretBaseRedCave = &gTileset_SecretBaseRedCave;
 
-#if !IS_FRLG
 
 const struct Tileset gTileset_General =
 {
@@ -833,8 +832,6 @@ const struct Tileset gTileset_UnionRoom =
     .callback = NULL,
 };
 
-#else
-
 // FRLG tilesets
 const struct Tileset gTileset_BuildingFrlg =
 {
@@ -1540,4 +1537,201 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
-#endif // IS_FRLG
+
+const struct Tileset gTileset_Jubilife =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Jubilife,
+    .palettes = gTilesetPalettes_Jubilife,
+    .metatiles = gMetatiles_Jubilife,
+    .metatileAttributes = gMetatileAttributes_Jubilife,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hearthome =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hearthome,
+    .palettes = gTilesetPalettes_Hearthome,
+    .metatiles = gMetatiles_Hearthome,
+    .metatileAttributes = gMetatileAttributes_Hearthome,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Celestic =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Celestic,
+    .palettes = gTilesetPalettes_Celestic,
+    .metatiles = gMetatiles_Celestic,
+    .metatileAttributes = gMetatileAttributes_Celestic,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Veilstone =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Veilstone,
+    .palettes = gTilesetPalettes_Veilstone,
+    .metatiles = gMetatiles_Veilstone,
+    .metatileAttributes = gMetatileAttributes_Veilstone,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Canalave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Canalave,
+    .palettes = gTilesetPalettes_Canalave,
+    .metatiles = gMetatiles_Canalave,
+    .metatileAttributes = gMetatileAttributes_Canalave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Snowpoint =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Snowpoint,
+    .palettes = gTilesetPalettes_Snowpoint,
+    .metatiles = gMetatiles_Snowpoint,
+    .metatileAttributes = gMetatileAttributes_Snowpoint,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sunnyshore =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sunnyshore,
+    .palettes = gTilesetPalettes_Sunnyshore,
+    .metatiles = gMetatiles_Sunnyshore,
+    .metatileAttributes = gMetatileAttributes_Sunnyshore,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Valor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Valor,
+    .palettes = gTilesetPalettes_Valor,
+    .metatiles = gMetatiles_Valor,
+    .metatileAttributes = gMetatileAttributes_Valor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Pasos =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Pasos,
+    .palettes = gTilesetPalettes_Pasos,
+    .metatiles = gMetatiles_Pasos,
+    .metatileAttributes = gMetatileAttributes_Pasos,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_General_Sinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_General_Sinnoh,
+    .palettes = gTilesetPalettes_General_Sinnoh,
+    .metatiles = gMetatiles_General_Sinnoh,
+    .metatileAttributes = gMetatileAttributes_General_Sinnoh,
+    .callback = InitTilesetAnim_General,
+};
+
+const struct Tileset gTileset_Building_Sinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Building_Sinnoh,
+    .palettes = gTilesetPalettes_Building_Sinnoh,
+    .metatiles = gMetatiles_Building_Sinnoh,
+    .metatileAttributes = gMetatileAttributes_Building_Sinnoh,
+    .callback = InitTilesetAnim_Building,
+};
+
+const struct Tileset gTileset_CaveSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Cave_sinnoh,
+    .palettes = gTilesetPalettes_Cave_sinnoh,
+    .metatiles = gMetatiles_Cave_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Cave_sinnoh,
+    .callback = InitTilesetAnim_Cave,
+};
+
+const struct Tileset gTileset_EverGrandeSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_EverGrande_sinnoh,
+    .palettes = gTilesetPalettes_EverGrande_sinnoh,
+    .metatiles = gMetatiles_EverGrande_sinnoh,
+    .metatileAttributes = gMetatileAttributes_EverGrande_sinnoh,
+    .callback = InitTilesetAnim_EverGrande,
+};
+
+const struct Tileset gTileset_LilycoveSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Lilycove_sinnoh,
+    .palettes = gTilesetPalettes_Lilycove_sinnoh,
+    .metatiles = gMetatiles_Lilycove_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Lilycove_sinnoh,
+    .callback = InitTilesetAnim_Lilycove,
+};
+
+const struct Tileset gTileset_RustboroSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Rustboro_sinnoh,
+    .palettes = gTilesetPalettes_Rustboro_sinnoh,
+    .metatiles = gMetatiles_Rustboro_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Rustboro_sinnoh,
+    .callback = InitTilesetAnim_Rustboro,
+};
+
+const struct Tileset gTileset_MauvilleSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Mauville_sinnoh,
+    .palettes = gTilesetPalettes_Mauville_sinnoh,
+    .metatiles = gMetatiles_Mauville_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Mauville_sinnoh,
+    .callback = InitTilesetAnim_Mauville,
+};
+
+const struct Tileset gTileset_PetalburgSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Petalburg_sinnoh,
+    .palettes = gTilesetPalettes_Petalburg_sinnoh,
+    .metatiles = gMetatiles_Petalburg_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Petalburg_sinnoh,
+    .callback = InitTilesetAnim_Petalburg,
+};
+
+const struct Tileset gTileset_LavaridgeSinnoh =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Lavaridge_sinnoh,
+    .palettes = gTilesetPalettes_Lavaridge_sinnoh,
+    .metatiles = gMetatiles_Lavaridge_sinnoh,
+    .metatileAttributes = gMetatileAttributes_Lavaridge_sinnoh,
+    .callback = InitTilesetAnim_Lavaridge,
+};

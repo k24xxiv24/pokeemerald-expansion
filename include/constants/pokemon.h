@@ -25,6 +25,7 @@ enum __attribute__((packed)) Type
     TYPE_DARK = 18,
     TYPE_FAIRY = 19,
     TYPE_STELLAR = 20,
+    TYPE_GOD = 21,
     NUMBER_OF_MON_TYPES
 };
 
@@ -101,7 +102,7 @@ enum __attribute__((packed)) Stat
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 24 // Actual probability is SHINY_ODDS/65536
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -155,7 +156,7 @@ enum __attribute__((packed)) Stat
 #define MIN_LEVEL 1
 #define MAX_LEVEL 100
 
-#define MAX_DYNAMAX_LEVEL 10
+#define MAX_DYNAMAX_LEVEL 15
 
 enum OtIdMethod
 {

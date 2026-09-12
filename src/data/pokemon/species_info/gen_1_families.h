@@ -18208,7 +18208,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formChangeTable = sEeveeFormChangeTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_JOLTEON},
                                 {EVO_ITEM, ITEM_WATER_STONE, SPECIES_VAPOREON},
-                                {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON}
+                                {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON},
+                                {EVO_ITEM, ITEM_MOON_STONE, SPECIES_POLTEON}
                             #if P_GEN_6_CROSS_EVOS
                                 ,{EVO_LEVEL, 0, SPECIES_SYLVEON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_KNOWS_MOVE_TYPE, TYPE_FAIRY})}
                             #endif
@@ -18425,6 +18426,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sVaporeonLevelUpLearnset,
         .teachableLearnset = sVaporeonTeachableLearnset,
+        .formSpeciesIdTable = sVaporeonFormSpeciesIdTable,
+        .formChangeTable = sVaporeonFormChangeTable,
     },
 
     [SPECIES_JOLTEON] =
@@ -18491,6 +18494,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sJolteonLevelUpLearnset,
         .teachableLearnset = sJolteonTeachableLearnset,
+        .formSpeciesIdTable = sJolteonFormSpeciesIdTable,
+        .formChangeTable = sJolteonFormChangeTable,
     },
 
     [SPECIES_FLAREON] =
@@ -18557,6 +18562,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sFlareonLevelUpLearnset,
         .teachableLearnset = sFlareonTeachableLearnset,
+        .formSpeciesIdTable = sFlareonFormSpeciesIdTable,
+        .formChangeTable = sFlareonFormChangeTable,
     },
 
 #if P_GEN_2_CROSS_EVOS
@@ -18587,9 +18594,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .weight = 265,
         .description = COMPOUND_STRING(
             "An Espeon is extremely loyal to any\n"
-            "Trainer it considers to be worthy. It is\n"
-            "said to have developed precognitive\n"
-            "powers to protect its Trainer from harm."),
+            "Umbreon it finds."),
         .pokemonScale = 363,
         .pokemonOffset = 14,
         .trainerScale = 256,
@@ -18625,6 +18630,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sEspeonLevelUpLearnset,
         .teachableLearnset = sEspeonTeachableLearnset,
+        .formSpeciesIdTable = sEspeonFormSpeciesIdTable,
+        .formChangeTable = sEspeonFormChangeTable,
     },
 
     [SPECIES_UMBREON] =
@@ -18691,6 +18698,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sUmbreonLevelUpLearnset,
         .teachableLearnset = sUmbreonTeachableLearnset,
+        .formSpeciesIdTable = sUmbreonFormSpeciesIdTable,
+        .formChangeTable = sUmbreonFormChangeTable,
     },
 #endif //P_GEN_2_CROSS_EVOS
 
@@ -18760,6 +18769,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sLeafeonLevelUpLearnset,
         .teachableLearnset = sLeafeonTeachableLearnset,
+        .formSpeciesIdTable = sLeafeonFormSpeciesIdTable,
+        .formChangeTable = sLeafeonFormChangeTable,
     },
 
     [SPECIES_GLACEON] =
@@ -18774,7 +18785,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 184 : 196,
         .evYield_SpAttack = 2,
-        .genderRatio = PERCENT_FEMALE(12.5),
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 35,
         .friendship = 35,
         .growthRate = GROWTH_MEDIUM_FAST,
@@ -18827,6 +18838,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sGlaceonLevelUpLearnset,
         .teachableLearnset = sGlaceonTeachableLearnset,
+        .formSpeciesIdTable = sGlaceonFormSpeciesIdTable,
+        .formChangeTable = sGlaceonFormChangeTable,
     },
 #endif //P_GEN_4_CROSS_EVOS
 
@@ -18843,7 +18856,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = 184,
         .evYield_SpDefense = 2,
-        .genderRatio = PERCENT_FEMALE(12.5),
+        .genderRatio = PERCENT_FEMALE(87.5),
         .eggCycles = 35,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
@@ -18897,6 +18910,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sSylveonLevelUpLearnset,
         .teachableLearnset = sSylveonTeachableLearnset,
+        .formSpeciesIdTable = sSylveonFormSpeciesIdTable,
+        .formChangeTable = sSylveonFormChangeTable,
     },
 #endif //P_GEN_6_CROSS_EVOS
 #endif //P_FAMILY_EEVEE

@@ -2568,3 +2568,75 @@ static const u16 sTerapagosFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_TERAPAGOS
+
+static const u16 sEspeonFormSpeciesIdTable[] = {
+    SPECIES_ESPEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_ESPEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sUmbreonFormSpeciesIdTable[] = {
+    SPECIES_UMBREON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_UMBREON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sSylveonFormSpeciesIdTable[] = {
+    SPECIES_SYLVEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_SYLVEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sLeafeonFormSpeciesIdTable[] = {
+    SPECIES_LEAFEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_LEAFEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sGlaceonFormSpeciesIdTable[] = {
+    SPECIES_GLACEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GLACEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sFlareonFormSpeciesIdTable[] = {
+    SPECIES_FLAREON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FLAREON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sVaporeonFormSpeciesIdTable[] = {
+    SPECIES_VAPOREON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_VAPOREON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sJolteonFormSpeciesIdTable[] = {
+    SPECIES_JOLTEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_JOLTEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sPolteonFormSpeciesIdTable[] = {
+    SPECIES_POLTEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_POLTEON_MEGA,
+    #endif
+    FORM_SPECIES_END,
+};

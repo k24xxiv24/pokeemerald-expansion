@@ -2472,4 +2472,9 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Spicy Spray"),
         .description = COMPOUND_STRING("Burns the foe when damaged."),
     },
+    [ABILITY_GHOULIFY] =
+    {
+        .name = _("Ghoulify"),
+        .description = COMPOUND_STRING("Makes Normal moves Ghost type"),
+    },
 };

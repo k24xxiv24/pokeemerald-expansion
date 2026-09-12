@@ -903,6 +903,7 @@ enum __attribute__((packed)) Move
     MOVE_PSYCHIC_NOISE = 845,
     MOVE_UPPER_HAND = 846,
     MOVE_MALIGNANT_CHAIN = 847,
+    MOVE_GOD_WRATH = 848,
     MOVES_COUNT_GEN9,
 
     // Add any custom moves here, not further down!
@@ -1005,6 +1006,7 @@ enum __attribute__((packed)) Move
     MOVE_G_MAX_STEELSURGE,
     MOVE_G_MAX_DEPLETION,
     MOVE_G_MAX_ONE_BLOW,
+    MOVE_G_MAX_STRAFING_RUN,
     MOVE_G_MAX_RAPID_FLOW,
     LAST_MAX_MOVE = MOVE_G_MAX_RAPID_FLOW,
     MOVES_COUNT_DYNAMAX,

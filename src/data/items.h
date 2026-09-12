@@ -158,6 +158,10 @@ static const u8 sTeraShardDesc[]      = _("These shards may\n"
 static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
+                                          
+static const u8 sEspoliteDesc[]    = _("This stone enables\n"
+                                       "Eeveelutions to Mega\n"
+                                          "Evolve in battle.");
 
 const struct ItemInfo gItemsInfo[] =
 {
@@ -15831,6 +15835,52 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
+    },
+    
+    [ITEM_ESPOLITE] =
+    {
+        .name = ITEM_NAME("Eeveeite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sEspoliteDesc,
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_MEGA_STONE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Clefablite,
+        .iconPalette = gItemIconPalette_Clefablite,
+    },
+    [ITEM_AURA_STONE] =
+    {
+        .name = ITEM_NAME("Aura Stone"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A small stone\n"
+            "with a high amount\n"
+            "of energy."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_SELLABLE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_AdamantCrystal,
+        .iconPalette = gItemIconPalette_AdamantCrystal,
+    },
+    [ITEM_DIAMOND_BIT] =
+    {
+        .name = ITEM_NAME("Diamond Bit"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A drill bit\n"
+            "with a diamond tip."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_SELLABLE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_DiamondBit,
+        .iconPalette = gItemIconPalette_CornerstoneMask,
     },
 };
 

@@ -23660,4 +23660,50 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .ignoresProtect = TRUE,
         .battleAnimScript = gBattleAnimMove_GMaxRapidFlow,
     },
+    
+    [MOVE_GOD_WRATH] =
+    {
+        .name = COMPOUND_STRING("God's Wrath"),
+        .description = COMPOUND_STRING(
+            "Pounds the foe with\n"
+            "forelegs or tail."),
+        .effect = EFFECT_HIT,
+        .power = 250,
+        .type = TYPE_GOD,
+        .accuracy = 100,
+        .pp = 35,
+        .target = TARGET_SELECTED,
+        .priority = 4,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .contestComboStarterId = COMBO_STARTER_POUND,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_Pound,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 100
+        }),
+    },
+    [MOVE_G_MAX_STRAFING_RUN] =
+    {
+        .name = COMPOUND_STRING("G-Max Strafing Run"),
+        .description = COMPOUND_STRING(
+            "G-max Skarmory attack.\n"
+            "Flinches and hits twice."),    //ANIM TODO
+        .effect = EFFECT_MAX_MOVE,
+        .power = 10,
+        .type = TYPE_FLYING,
+        .accuracy = 100,
+        .pp = 10,
+        .target = TARGET_SELECTED,
+        .multiHit = TRUE,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .battleAnimScript = gBattleAnimMove_GMaxWindRage,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 70
+        }),
+    },
 };

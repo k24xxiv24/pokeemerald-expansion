@@ -11,7 +11,7 @@ struct Landmark
 struct LandmarkList
 {
     mapsec_u8_t mapSection;
-    u8 id;
+    u16 id;
     const struct Landmark *const *landmarks;
 };
 
@@ -347,8 +347,7 @@ static const struct LandmarkList sLandmarkLists[] =
     {MAPSEC_ROUTE_134, 0, Landmarks_OceanCurrent},
     {MAPSEC_ROUTE_134, 1, Landmarks_OceanCurrent},
     {MAPSEC_ROUTE_134, 2, Landmarks_Route134_2},
-    {MAPSEC_MT_CHIMNEY, 2, Landmarks_MtChimney_2},
-    {MAPSEC_NONE, 0, NULL},
+    {MAPSEC_MT_CHIMNEY, 2, Landmarks_MtChimney_2}
 };
 
 static const struct Landmark *const *GetLandmarks(mapsec_u8_t mapSection, u8 id);

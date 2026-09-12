@@ -4729,6 +4729,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sLucarioTeachableLearnset,
         .formSpeciesIdTable = sLucarioFormSpeciesIdTable,
         .formChangeTable = sLucarioFormChangeTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_AURA_STONE, SPECIES_RAYCARIO}),
     },
 
 #if P_MEGA_EVOLUTIONS

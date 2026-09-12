@@ -27503,3 +27503,121 @@ const u32 gObjectEventPic_Substitute[] = INCGFX_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCGFX_U32("graphics/pokemon/egg/anim_front.png", ".4bpp.smol");
     const u16 gMonPalette_Egg[] = INCGFX_U16("graphics/pokemon/egg/normal.pal", ".gbapal");
     const u8 gMonIcon_Egg[] = INCGFX_U8("graphics/pokemon/egg/icon.png", ".4bpp");
+    
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Espeon_Mega[] = INCGFX_U32("graphics/pokemon/espeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Espeon_Mega[] = INCGFX_U32("graphics/pokemon/espeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Espeon_Mega[] = INCGFX_U32("graphics/pokemon/espeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Espeon_Mega[] = INCGFX_U32("graphics/pokemon/espeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+#if !P_GBA_STYLE_SPECIES_ICONS
+    const u8 gMonIcon_Espeon_Mega[] = INCGFX_U8("graphics/pokemon/espeon/icon.png", ".4bpp");
+#else
+    const u8 gMonIcon_Espeon_Mega[] = INCGFX_U8("graphics/pokemon/espeon/icon_gba.png", ".4bpp");
+#endif //P_GBA_STYLE_SPECIES_ICONS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_Espeon_Mega[] = INCGFX_COMP("graphics/pokemon/espeon/overworld.png", ".4bpp", "-mwidth 4 -mheight 4");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u16 gOverworldPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/overworld_normal.pal", ".gbapal");
+    const u16 gShinyOverworldPalette_Espeon_Mega[] = INCGFX_U16("graphics/pokemon/espeon/overworld_shiny.pal", ".gbapal");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Umbreon_Mega[] = INCGFX_U32("graphics/pokemon/umbreon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Umbreon_Mega[] = INCGFX_U16("graphics/pokemon/umbreon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Umbreon_Mega[] = INCGFX_U32("graphics/pokemon/umbreon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Umbreon_Mega[] = INCGFX_U16("graphics/pokemon/umbreon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Umbreon_Mega[] = INCGFX_U32("graphics/pokemon/umbreon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Umbreon_Mega[] = INCGFX_U16("graphics/pokemon/umbreon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Umbreon_Mega[] = INCGFX_U32("graphics/pokemon/umbreon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Umbreon_Mega[] = INCGFX_U16("graphics/pokemon/umbreon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Leafeon_Mega[] = INCGFX_U32("graphics/pokemon/leafeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Leafeon_Mega[] = INCGFX_U16("graphics/pokemon/leafeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Leafeon_Mega[] = INCGFX_U32("graphics/pokemon/leafeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Leafeon_Mega[] = INCGFX_U16("graphics/pokemon/leafeon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Leafeon_Mega[] = INCGFX_U32("graphics/pokemon/leafeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Leafeon_Mega[] = INCGFX_U16("graphics/pokemon/leafeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Leafeon_Mega[] = INCGFX_U32("graphics/pokemon/leafeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Leafeon_Mega[] = INCGFX_U16("graphics/pokemon/leafeon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Glaceon_Mega[] = INCGFX_U32("graphics/pokemon/glaceon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Glaceon_Mega[] = INCGFX_U16("graphics/pokemon/glaceon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Glaceon_Mega[] = INCGFX_U32("graphics/pokemon/glaceon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Glaceon_Mega[] = INCGFX_U16("graphics/pokemon/glaceon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Glaceon_Mega[] = INCGFX_U32("graphics/pokemon/glaceon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Glaceon_Mega[] = INCGFX_U16("graphics/pokemon/glaceon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Glaceon_Mega[] = INCGFX_U32("graphics/pokemon/glaceon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Glaceon_Mega[] = INCGFX_U16("graphics/pokemon/glaceon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Sylveon_Mega[] = INCGFX_U32("graphics/pokemon/sylveon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Sylveon_Mega[] = INCGFX_U16("graphics/pokemon/sylveon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Sylveon_Mega[] = INCGFX_U32("graphics/pokemon/sylveon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Sylveon_Mega[] = INCGFX_U16("graphics/pokemon/sylveon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Sylveon_Mega[] = INCGFX_U32("graphics/pokemon/sylveon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Sylveon_Mega[] = INCGFX_U16("graphics/pokemon/sylveon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Sylveon_Mega[] = INCGFX_U32("graphics/pokemon/sylveon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Sylveon_Mega[] = INCGFX_U16("graphics/pokemon/sylveon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Flareon_Mega[] = INCGFX_U32("graphics/pokemon/flareon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Flareon_Mega[] = INCGFX_U16("graphics/pokemon/flareon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Flareon_Mega[] = INCGFX_U32("graphics/pokemon/flareon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Flareon_Mega[] = INCGFX_U16("graphics/pokemon/flareon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Flareon_Mega[] = INCGFX_U32("graphics/pokemon/flareon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Flareon_Mega[] = INCGFX_U16("graphics/pokemon/flareon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Flareon_Mega[] = INCGFX_U32("graphics/pokemon/flareon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Flareon_Mega[] = INCGFX_U16("graphics/pokemon/flareon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Jolteon_Mega[] = INCGFX_U32("graphics/pokemon/jolteon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Jolteon_Mega[] = INCGFX_U16("graphics/pokemon/jolteon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Jolteon_Mega[] = INCGFX_U32("graphics/pokemon/jolteon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Jolteon_Mega[] = INCGFX_U16("graphics/pokemon/jolteon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Jolteon_Mega[] = INCGFX_U32("graphics/pokemon/jolteon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Jolteon_Mega[] = INCGFX_U16("graphics/pokemon/jolteon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Jolteon_Mega[] = INCGFX_U32("graphics/pokemon/jolteon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Jolteon_Mega[] = INCGFX_U16("graphics/pokemon/jolteon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+    #if !P_GBA_STYLE_SPECIES_GFX
+    const u32 gMonFrontPic_Vaporeon_Mega[] = INCGFX_U32("graphics/pokemon/vaporeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Vaporeon_Mega[] = INCGFX_U16("graphics/pokemon/vaporeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Vaporeon_Mega[] = INCGFX_U32("graphics/pokemon/vaporeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Vaporeon_Mega[] = INCGFX_U16("graphics/pokemon/vaporeon/mega/shiny.pal", ".gbapal");
+#else
+    const u32 gMonFrontPic_Vaporeon_Mega[] = INCGFX_U32("graphics/pokemon/vaporeon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Vaporeon_Mega[] = INCGFX_U16("graphics/pokemon/vaporeon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Vaporeon_Mega[] = INCGFX_U32("graphics/pokemon/vaporeon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Vaporeon_Mega[] = INCGFX_U16("graphics/pokemon/vaporeon/mega/shiny.pal", ".gbapal");
+#endif //P_GBA_STYLE_SPECIES_GFX
+
+const u32 gMonFrontPic_RayquazaDelta[] = INCGFX_U32("graphics/pokemon/rayquaza_delta/front.png", ".4bpp.smol");
+const u32 gMonFrontPic_Excabore[] = INCGFX_U32("graphics/pokemon/excabore/front.png", ".4bpp.smol");
+const u32 gMonFrontPic_DialgaMega[] = INCGFX_U32("graphics/pokemon/dialga/mega/front.png", ".4bpp.smol");
+const u32 gMonFrontPic_Raycario[] = INCGFX_U32("graphics/pokemon/raycario/front.png", ".4bpp.smol");
+const u32 gMonFrontPic_SkarmoryGmax[] = INCGFX_U32("graphics/pokemon/skarmory/gmax/front.png", ".4bpp.smol");
+
+    const u32 gMonFrontPic_Polteon[] = INCGFX_U32("graphics/pokemon/polteon/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Polteon[] = INCGFX_U16("graphics/pokemon/polteon/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Polteon[] = INCGFX_U32("graphics/pokemon/polteon/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Polteon[] = INCGFX_U16("graphics/pokemon/polteon/shiny.pal", ".gbapal");
+    
+    const u32 gMonFrontPic_Polteon_Mega[] = INCGFX_U32("graphics/pokemon/polteon/mega/front.png", ".4bpp.smol");
+    const u16 gMonPalette_Polteon_Mega[] = INCGFX_U16("graphics/pokemon/polteon/mega/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Polteon_Mega[] = INCGFX_U32("graphics/pokemon/polteon/mega/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Polteon_Mega[] = INCGFX_U16("graphics/pokemon/polteon/mega/shiny.pal", ".gbapal");

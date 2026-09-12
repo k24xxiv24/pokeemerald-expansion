@@ -3970,6 +3970,10 @@ static const struct LevelUpMove sLaprasLevelUpLearnset[] = {
 #if P_FAMILY_DITTO
 static const struct LevelUpMove sDittoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TRANSFORM),
+    LEVEL_UP_MOVE( 100, MOVE_ROAR_OF_TIME),
+    LEVEL_UP_MOVE( 100, MOVE_PRISMATIC_LASER),
+    LEVEL_UP_MOVE( 100, MOVE_BLOOD_MOON),
+    LEVEL_UP_MOVE( 100, MOVE_GIGATON_HAMMER),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_DITTO
@@ -10100,6 +10104,8 @@ static const struct LevelUpMove sBidoofLevelUpLearnset[] = {
     LEVEL_UP_MOVE(41, MOVE_AMNESIA),
     LEVEL_UP_MOVE(45, MOVE_SUPERPOWER),
     LEVEL_UP_MOVE(49, MOVE_CURSE),
+    LEVEL_UP_MOVE(100, MOVE_JUDGMENT),
+    LEVEL_UP_MOVE(100, MOVE_GOD_WRATH),
     LEVEL_UP_END
 };
 

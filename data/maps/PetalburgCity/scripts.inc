@@ -225,6 +225,10 @@ PetalburgCity_EventScript_CitySign::
 	msgbox PetalburgCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+PetalburgCity_EventScript_NEWROCk::
+	msgbox PetalburgCity_Text_NEWROCk, MSGBOX_SIGN
+	end
+
 PetalburgCity_EventScript_Gentleman::
 	msgbox PetalburgCity_Text_FullPartyExplanation, MSGBOX_NPC
 	end
@@ -738,6 +742,10 @@ PetalburgCity_Text_GymSign:
 PetalburgCity_Text_CitySign:
 	.string "PETALBURG CITY\n"
 	.string "“Where people mingle with nature.”$"
+
+PetalburgCity_Text_NEWROCk:
+	.string "There is a new rock by the water!\n"
+	.string "“Kinda outta place isn't it dude?”$"
 
 PetalburgCity_Text_WallyHouseSign:
 	.string "WALLY'S HOUSE$"
